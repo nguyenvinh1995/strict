@@ -1,0 +1,22 @@
+.logo {
+    padding: 15px 0px;
+    margin-left: 50px;
+}
+.navbar {
+    background-color: #f6f9f9;
+    position: fixed;
+    top: 0px;
+    z-index:999;
+    width: 100%;
+    padding: 0px 0px;
+    border: none;
+}
+.navbar-nav{
+    font-size: 20px;
+    padding: 13px ;
+}
+/*.btn-xoa{*/
+    /*float: right;*/
+    /*margin-top: 5px;*/
+
+/*}*/

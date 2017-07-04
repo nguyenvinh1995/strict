@@ -1,0 +1,37 @@
+/*logo*/
+LOGIN STRICT
+LOGIN STRICT
+.logo {
+    padding: 45px 0px;
+    width: 100%;
+}
+header {
+    background-color: #f6f9f9;
+    position: fixed;
+    top: 0px;
+    z-index:999;
+    width: 100%;
+    padding: 20px 0px;
+}
+.row{
+    padding: 250px 0px;
+}
+.checkbox{
+    margin-left: 20px;
+    color:blueviolet;
+    margin-top: 20px;
+    float: left;
+}
+.btn-blue{
+    padding: 10px 45px;
+    float: right;
+    background:transparent;
+    border: solid 1px #15a4fa;
+    padding: 15px 30px;
+    color: blueviolet;
+    padding-left: -40px;
+    padding-right: -40px;
+}
+h1{
+    color: blueviolet;
+}

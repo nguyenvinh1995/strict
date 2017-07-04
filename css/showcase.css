@@ -1,0 +1,132 @@
+.showcase .text-showcase {
+    margin-top: 30px;
+    padding-top: 20px;
+}
+
+.showcase h4 {
+    font-size: 50px;
+}
+
+.showcase h5 {
+    font-size: 28px;
+}
+
+.showcase {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.showcase .btn3{
+    color: white;
+    display: inline;
+}
+.showcase .glyphicon2 {
+    font-size: 25px;
+    top:47%;
+    left:1px;
+}
+.showcase .glyphicon3 {
+    font-size: 25px;
+    top:47%;
+    left:1px;
+}
+.pic {
+    padding-bottom: 30px;
+    position: relative;
+}
+.pic image {
+    position: relative;
+    display: block;
+    height: auto;
+}
+.pic img {
+    width: 100%;
+}
+.pic:hover .pic-hover {
+    opacity: 0.6;
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0px 15px 30px 15px;
+    justify-content: center;
+    align-items: center;
+    transition: .5s all;
+    color: #15a4fa;
+    color: #15a4fa;
+    background-color: #15a4fa;
+}
+.pic-hover {
+    display: none;
+    position: absolute;
+}
+
+.pic-hover button {
+    margin: 10px 10px;
+    background-color:#15a4fa;
+    border: solid 2px #fff;
+}
+.pic-hover button:hover {
+    background-color:#2b8afe;
+    color: white;
+    display: flex;
+}
+.modal-body .carousel{
+    position: relative;
+}
+.modal-body .carousel-indicators{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.modal-body .carousel-inner{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-right:-15px;
+    padding-left:-15px;
+}
+.modal-body .carousel-control{
+    osition: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.9);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=70);
+    opacity: .8;
+}
+.modal-body .sr-only{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+.modal-body .glyphicon{
+    position: relative;
+    top: 1px;
+    display: inline-block;
+}
+.modal-img{
+    width:730px;
+    height: 500px;
+}
+.modal-lg{
+    width: 800px;
+    height: 900px;
+}
