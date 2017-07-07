@@ -5,40 +5,42 @@ p{
     font-size: 20px;
 }
 /*logo*/
+
 .logo {
-    padding: 25px 0px 25px 15%;
-    width: 100%;
+    padding: 20px 15px;
+    margin-left: 50px;
 }
-header {
+.navbar {
     background-color: #f6f9f9;
     position: fixed;
-    top: 0;
-    z-index:1;
+    top: 0px;
+    z-index:999;
     width: 100%;
+    padding: 0px 0px;
+    border: none;
 }
+
 /*banner*/
 .banner img{
     width: 100%;
     height: 700px;
-   margin-top: 10px;
-    /*position: relative;*/
+    margin-top: 70px;
+    position: relative;
 
 }
 .banner{
-    padding-top: 70px;
+    /*padding-top: 70px;*/
+    /*position: relative;*/
 
 }
 .glyphicon{
-    /*position: relative;*/
     top: 1px;
     display: inline-block;
 }
-/*.carousel{*/
-    /*position: relative;*/
-/*}*/
+
 .carousel-indicators{
     position: absolute;
-    bottom: 10px;
+    /*bottom: 10px;*/
     left: 50%;
     z-index: 15;
     width: 60%;
@@ -48,7 +50,7 @@ header {
     list-style: none;
 }
 .carousel-inner{
-    position: relative;
+
     width: 100%;
     overflow: hidden;
     padding-right:-15px;
@@ -56,7 +58,7 @@ header {
 
 }
 .carousel-control{
-    /*position: absolute;*/
+
     top: 0;
     bottom: 0;
     left: 0;
@@ -70,7 +72,7 @@ header {
     opacity: .5;
 }
 .sr-only{
-    /*position: absolute;*/
+
     width: 1px;
     height: 1px;
     padding: 0;
@@ -79,41 +81,44 @@ header {
     clip: rect(0,0,0,0);
     border: 0;
 }
-.text-banner{
+.anh-banner{
     color: white;
-    position: absolute;
+    position:absolute;
     top: 50%;
     left: 50%;
-    margin-top: -250px;
+    margin-top: -230px;
     margin-left: -260px;
 }
-.text-banner .btn1{
+
+ .btn1{
     background:transparent;
     border: solid 1px #15a4fa;
     padding: 15px 30px;
-    top: 20px;
     color: white;
+     position: absolute;
+     top:50%;
+     left: 50%;
+     margin-left:-80px ;
+     margin-top: 60px;
 }
-.text-banner hr{
+.anh-banner hr{
     border: solid 1px #15a4fa;
 }
-.text-banner h1{
+.anh-banner h1{
     font-size: 150px;
 }
 h6{
     font-size: 50px;
     margin-top: 60px;
 }
-.banner1 image{
-    width: 100%;
-}
-.text-banner .gly1{
+.gly1{
+    top:50%;
     left: 50%;
-    margin-top: 75%;
-    font-size: 30px;
+    margin-left:0px ;
+    margin-top: 150px;
+    font-size: 20px;
     position: absolute;
     color: white;
-    font-size: 30px;
 }
 /*simple-and-pure*/
 .simple-and-pure h2{
@@ -195,6 +200,9 @@ h6{
 }
 .row .text-footer{
     margin-top: 15px;
-    margin-bottom: 10px;
-    padding-left: 150px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color:gray;
+    /*padding: 0px 0px 0px ;*/
+    float: left;
 }

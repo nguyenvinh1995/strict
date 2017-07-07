@@ -62,12 +62,12 @@ if (isset($_POST['submit'])) {
                     <input type="hidden" name="anh" value="<?php echo $rows['anh'];?>">
                 </div>
 
-                <button name="submit" type="submit" class="btn btn-primary btn-update">
+                <button name="submit" type="submit" class="btn btn-primary">
                     <span class="glyphicon glyphicon-cloud-upload"></span> Upload
                 </button>
 
                 <a href="main.php?page_layout=showcase" title="" style="float: right">
-                    <button type="button" class="btn btn-primary btn-cancel">Hủy</button>
+                    <button type="button" class="btn btn-primary">Hủy</button>
                 </a>
 
             </form>

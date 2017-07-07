@@ -44,7 +44,7 @@ if (isset($_POST['submit'])) {
                 <input type="file" name="anh" class="form-control" required>
             </div>
 
-            <button name="submit" type="submit" class="btn btn-success btn-md">
+            <button name="submit" type="submit" class="btn btn-success">
                 <span class="glyphicon glyphicon-cloud-upload"></span> Upload
             </button>
         </form>

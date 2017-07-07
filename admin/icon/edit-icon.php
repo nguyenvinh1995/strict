@@ -16,11 +16,13 @@ if(isset($_GET['id'])){
 if (isset($_POST['submit'])) {
     $name = $_POST['name'];
     $link = $_POST['link'];
+
     $sql = "UPDATE icon SET  link = '$link' WHERE id = '$id'";
     $query = mysqli_query($con,$sql);
     $total = mysqli_num_rows($query);
     header("location: main.php?page_layout=icon");
 }
+
 ?>
 <div class="container edit-banner" style="margin-top: 100px">
     <div class="row">
@@ -45,9 +47,9 @@ if (isset($_POST['submit'])) {
                     <input type="text" name="link" value="<?php echo $rows['link'] ?>" class="form-control">
                 </div>
 
-                <button name="submit" type="submit" value="submit" class="btn btn-info btn-update">Fix Link</button>
+                <button name="submit" type="submit" value="submit" class="btn btn-success">Fix Link</button>
                 <a href="main.php?page_layout=icon" title="">
-                    <button type="button" class="btn btn-danger btn-cancel" style="float: right" >Hủy</button>
+                    <button type="button" class="btn btn-danger" style="float: right" >Hủy</button>
                 </a>
 
             </form>

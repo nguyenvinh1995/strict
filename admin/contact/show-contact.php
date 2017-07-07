@@ -42,12 +42,12 @@
                     </div>
 
                     <a href="main.php?page_layout=contact">
-                        <button type="button" class="btn btn-info btn-undo">
+                        <button type="button" class="btn btn-success">
                             <span class="glyphicon glyphicon-arrow-left"></span> Back
                         </button>
                     </a>
                     <a onclick="return confirm('Bạn muốn xóa Message này ?')" href="main.php?page_layout=del-contact&id=<?php echo $rows['id'];?>" >
-                        <button type="button" class="btn btn-danger btn-remove" style="float: right">
+                        <button type="button" class="btn btn-danger" style="float: right">
                             <span class="glyphicon glyphicon-trash"></span>
                         </button>
                     </a>

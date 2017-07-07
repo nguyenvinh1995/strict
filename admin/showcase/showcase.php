@@ -37,7 +37,7 @@
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex-container">
                         <a href="main.php?page_layout=edit-showcase&id=<?php echo $rows['id'] ?>">
-                            <button  style="margin-top: 5px;" onclick="return confirm('Bạn muốn sửa Showcase này ?')"  type="button" class="btn btn-default btn-md">
+                            <button  style="margin-top: 5px;" onclick="return confirm('Bạn muốn sửa Showcase này ?')"  type="button" class="btn btn-default">
                                 <span class="glyphicon glyphicon-link"></span> Fix
                             </button>
                         </a>
@@ -46,7 +46,7 @@
                             ?>
                             <a onclick="return confirm('Bạn muốn xóa Showcase này ?')"
                                href="main.php?page_layout=del-showcase&id=<?php echo $rows['id'] ?>">
-                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default btn-md">
+                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default">
                                     <span class="glyphicon glyphicon-remove"></span> Del
                                 </button>
                             </a>
@@ -54,7 +54,7 @@
                         } else {
                             ?>
                             <a onclick="return alert('Bạn không thể xóa Showcase này ?')" href="">
-                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default btn-md">
+                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default">
                                     <span class="glyphicon glyphicon-remove"></span> Del
                                 </button>
                             </a>

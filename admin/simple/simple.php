@@ -39,7 +39,7 @@ $totalrows = mysqli_num_rows($query);
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 flex-container">
                         <a href="main.php?page_layout=edit-simple&id=<?php echo $rows['id'] ?>">
-                            <button  style="margin-top: 5px;" onclick="return confirm('Bạn muốn sửa Simple này ?')" type="button" class="btn btn-default btn-md">
+                            <button  style="margin-top: 5px;" onclick="return confirm('Bạn muốn sửa Simple này ?')" type="button" class="btn btn-default">
                                 <span class="glyphicon glyphicon-link"></span> Fix
                             </button>
                         </a>
@@ -50,7 +50,7 @@ $totalrows = mysqli_num_rows($query);
 
                             <a onclick="return confirm('Bạn muốn xóa Simple này ?')"
                                href="main.php?page_layout=del-simple&id=<?php echo $rows['id'] ?>">
-                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default btn-md">
+                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default">
                                     <span class="glyphicon glyphicon-remove"></span> Del
                                 </button>
                             </a>
@@ -60,7 +60,7 @@ $totalrows = mysqli_num_rows($query);
                             ?>
 
                             <a onclick="return alert('Bạn không thể xóa Simple này ?')" href="">
-                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default btn-md">
+                                <button style="float: right;margin-top: 5px;" type="button" class="btn btn-default">
                                     <span class="glyphicon glyphicon-remove"></span> Del
                                 </button>
                             </a>

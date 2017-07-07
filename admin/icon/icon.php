@@ -34,7 +34,7 @@ $totalrows = mysqli_num_rows($query);
 
                     <td class="text-center">
                         <a onclick="return confirm('Bạn muốn sửa link này ?')" href="main.php?page_layout=edit-icon&id=<?php echo $rows['id'];?>">
-                            <button type="button" class="btn btn-info">
+                            <button type="button" class="btn btn-success">
                                 <span class="glyphicon glyphicon-list-alt"></span>
                             </button>
                         </a>

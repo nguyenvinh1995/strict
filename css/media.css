@@ -1,97 +1,14 @@
-@media  (min-width: 1000px) and(max-width: 1400px) {
-    .text-banner{
-        color: white;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-top: -350px;
-        margin-left: -260px;
-    }
-
-    .text-banner h1 {
-        font-size: 50px;
-    }
-    .w3-container img{
-        height: 300px;
-    }
-    p{
-        font-size: 20px;
-    }
-    .gly1{
-        margin-top: -10px;
-    }
-    .text-banner .btn1{
-        background: transparent;
-        border: solid 1px #15a4fa;
-        padding: 10px 10px;
-
-    }
-    .simple-and-pure h2{
-        font-size: 30px;
-    }
-    h4{
-        font-size: 30px;
-    }
-    .simple-and-pure p{
-        font-size: 15px;
-        margin:5px 5px;
-    }
-
-    h6{
-        font-size: 30px;
-    }
-    .glyphicon1{
-        font-size: 20px;
-            }
-}
-
 
 
 @media (min-width: 600px) and (max-width: 999px) {
-    .logo {
-        padding: 15px;
+    .anh-banner{
+        margin-top: -170px;
     }
 
-    .text-banner {
-        position: absolute;
-        left: 25%;
-        top: 50%;
-        margin-top: -200px;
-        margin-left: 45px;
+    .anh-banner h1{
+        font-size: 100px;
     }
 
-    .text-banner h1 {
-        color: #fff;
-        font-size: 50px;
-    }
-
-    .text-banner hr {
-        width: 90%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border: solid 1px #15a4fa;
-    }
-
-    .text-banner p {
-        /*margin: 0px 5px;*/
-        color: #fff;
-        font-size: 14px;
-        word-spacing: 2px;
-    }
-
-    .text-banner .btn-blue {
-        margin-top: 130px;
-        margin-left: 138px;
-        padding: 2px 7px;
-    }
-
-    .gly1 {
-        color: #fff;
-        position: absolute;
-        left: 50%;
-        top: -50%;
-        margin-left: -10px;
-    }
 
     .icon {
         padding: 30px 0px;
@@ -118,51 +35,28 @@
 }
 
 @media (min-width: 400px) and (max-width: 599px) {
-
-    .logo {
-        padding: 15px;
+    .anh-banner{
+        margin-top: -120px;
+        margin-left: -150px;
     }
 
-    .text-banner {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        margin-top: -200px;
-        margin-left: 45px;
+    .anh-banner h1{
+        font-size: 50px;
     }
-
-    .text-banner h1 {
-        color: #fff;
-        font-size: 30px;
+    .anh-banner p{
+        font-size: 12px;
     }
-
-    .text-banner hr {
-        width: 90%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border: solid 1px #15a4fa;
+    .btn1{
+        font-size: 15px;
+        padding: 5px 7px;
+        margin-left: -50px;
     }
-
-    .text-banner p {
-        /*margin: 0px 5px;*/
-        color: #fff;
-        font-size: 14px;
-        word-spacing: 2px;
-    }
-
-    .text-banner .btn-blue {
-        margin-top: 130px;
-        margin-left: 138px;
-        padding: 2px 7px;
-    }
-
-    .gly1 {
-        color: #fff;
-        position: absolute;
-        left: 50%;
-        top: -60%;
+    .gly1{
+        margin-top: 100px;
         margin-left: -10px;
     }
+
+
 
     .icon {
         padding: 30px 0px;
@@ -193,53 +87,27 @@
 
 @media (max-width: 399px) {
 
-    .logo {
-        padding: 15px; }
-
-    .img-banner img {
-        padding: 50px 0px;
-        height: 300px; }
-    .gly1 {
-        color: #fff;
-        position: absolute;
-        left: 50%;
-        top: -70%;
-        margin-left: -10px;
-        font-size: 5px;
-
+    .anh-banner{
+        margin-top: -90px;
+        margin-left: -130px;
     }
-    .text-banner .btn1{
-        padding: 5px 3px;
-        color: white;
-        font-size: 15px;
+
+    .anh-banner h1{
+        font-size: 30px;
     }
-    .text-banner {
-        position: absolute;
-        left: 55%;
-        top: 75%;
-        margin-left: -160px; }
-    .text-banner h1 {
-        color: #fff;
-        font-size: 15px; }
-    .text-banner hr {
-        width: 90%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        border: solid 1px #15a4fa; }
-    .text-banner p {
-        color: #fff;
+    .anh-banner p{
         font-size: 10px;
-        word-spacing: 2px; }
-    .text-banner .btn-blue {
-        margin-top: 120px;
-        margin-left: 120px;
-        padding: 2px 7px; }
-
-    .text-banner .gly1 {
-        color: #fff;
-        position: absolute;
-        left: 50%;
-        bottom: 0%; }
+    }
+    .btn1{
+        font-size: 12px;
+        padding: 2px 3px;
+        margin-left: -40px;
+        margin-top: 50px;
+    }
+    .gly1{
+        margin-top: 75px;
+        margin-left: -10px;
+    }
 
     .text-simple {
         padding-bottom: 20px; }
