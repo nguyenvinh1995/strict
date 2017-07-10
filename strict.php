@@ -74,8 +74,7 @@ $totalrows_icon = mysqli_num_rows($query_icon);
 <div class="container-w3 banner">
     <div class="w3-container text-center">
         <div id="mycarousel" class="carousel slide" data-ride="mycarousel">
-            <div class="carousel-inner"
-            ">
+            <div class="carousel-inner">
             <?php
             $i = 0;
             while ($rows_banner = mysqli_fetch_array($query_banner)) {
@@ -88,6 +87,7 @@ $totalrows_icon = mysqli_num_rows($query_icon);
                 } ?>
 
                 <img src="img/<?php echo $rows_banner['anh'] ?>">
+
                 <div class="anh-banner text-center">
                     <h1><?php echo $rows_banner['title'] ?></h1>
                     <hr>
@@ -111,9 +111,7 @@ $totalrows_icon = mysqli_num_rows($query_icon);
             <span class="sr-only">Next</span>
         </a>
 
-        <a href="#contact-us" class="active">
-            <button type="button" class="btn btn-lg btn1">Call to action</button>
-        </a> <br>
+        <a href="#contact-us" class="active"><button type="button" class="btn btn-lg btn1">Call to action</button></a> <br>
         <a href="#contact-us" class="active"><span class="glyphicon glyphicon-chevron-down gly1"></span></a>
     </div>
 
@@ -267,14 +265,14 @@ $totalrows_icon = mysqli_num_rows($query_icon);
 <footer>
     <div class="container">
         <div class="row ">
-            <div class=" col-lg-6 col-md-6 col-sm-4  col-xs-4 ">
+            <div class=" col-lg-6 col-md-8 col-sm-7  col-xs-5 ">
                 <p class="text-footer"> Copyright 2014,Strict</p></div>
-            <div class=" col-lg-6 col-md-6 col-sm-8 col-xs-8 glyphicon1 ">
+            <div class="col-lg-6  col-md-4 col-sm-5 col-xs-7 glyphicon1 ">
                 <div class="row">
                     <?php
                     while ($rows_icon = mysqli_fetch_array($query_icon)) {
                         ?>
-                        <div class=" col-md-2 col-sm-2 col-xs-2 col-lg-1" style="float: right">
+                        <div class=" col-md-2 col-sm-2 col-xs-2 col-lg-1 icon1" style="float: right">
                             <a href="<?php echo $rows_icon['link']; ?>"> <img
                                         src="img/glyphicon<?php echo $rows_icon['id'] ?>.jpg"></a></div>
                         <?php
